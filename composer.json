@@ -1,0 +1,17 @@
+{
+    "name": "php7/solid",
+    "description": "Sample code demonstrating SOLID Principles of Object Oriented Design",
+    "authors": [
+        {
+            "name": "Silvena Dragostinova"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SOLID\\": "src/"
+        }
+    }
+}
